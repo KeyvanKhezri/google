@@ -13,7 +13,7 @@
     box-sizing: border-box;
 }
 
-.search-box {
+#mainBody #inputField {
     width: 600px;
     height: 50px;
     background-color: rgb(255, 255, 255);
@@ -42,7 +42,7 @@
 }
 
 
-.search-box:hover {
+#mainBody #inputField:hover {
     box-shadow: 0 0 5px grey;
     background-color: white;
 }
@@ -58,6 +58,7 @@
     justify-content: center;
     width: 560px;
     height: 10px;
+    margin-top: -40px;
 }
 
 #container div {
@@ -76,6 +77,9 @@
 
 a {
     margin-left: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
 }
 
 #btn1, #btn2 {
@@ -83,7 +87,11 @@ a {
     background-color: #f8f9fa;
 }
 
-/* #btn1:hover, #btn2:hover {
-    border: 1.5px solid #009688;
+#btn1:hover, #btn2:hover {
+    box-shadow: 0 0 5px grey;
     background-color: rgb(243, 240, 240);
-} */
+}
+
+a.hover:hover {
+    text-decoration: underline;
+}
