@@ -75,6 +75,53 @@
     padding: 5px;
 }
 
+.advancedHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#advancedHeading {  
+    border-bottom: solid #ebebeb 1px;
+}
+
+#advancedHeading label {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px;
+}
+
+.labelBox {
+    margin: 40px 0px 0px 40px;
+    font-size: 16px;
+}
+
+.firstBox {
+    margin: 10px 0px 0px 40px;
+    font-size: 13px;
+}
+
+.textField.firstField {
+    margin-left: 70px;
+}
+
+.textField.secondField {
+    margin-left: 10px;
+}
+
+.textField.thirdField {
+    margin-left: 46px;
+}
+
+.textField.fourthField {
+    margin-left: 38px;
+}
+
+.textField {
+    height: 25px;
+    width: 50%;
+}
+
 a {
     margin-left: 10px;
     text-decoration: none;
@@ -94,4 +141,28 @@ a {
 
 a.hover:hover {
     text-decoration: underline;
+}
+
+.testing {
+    margin-left: 80px;
+}
+
+.advancedButton {
+    color: #fff;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-left: 240px;
+    height: 30px;
+    min-width: 120px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+}
+
+.advancedContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
